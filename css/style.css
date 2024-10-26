@@ -1,0 +1,28 @@
+.quote{
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.quote .ovelay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-quote{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 750px;
+    height: 350px;
+}
+.content-quote h2 span{
+    color: gold;
+}
+.content-quote h2{
+    color: #ffff;
+}
+.btn:hover{
+    background-color: #ffff;
+    color: gold !important;
+}
